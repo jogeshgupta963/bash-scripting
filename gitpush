@@ -1,0 +1,9 @@
+#! /usr/bin/bash
+
+message=$1
+remote=$2
+branch=$3
+git add .
+git commit -m"${message}"
+git push ${remote} ${branch}
+echo done
