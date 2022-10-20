@@ -1,0 +1,14 @@
+#! /bin/bash
+
+case $1 in 
+	"smile")
+		echo "smiley"
+		;;
+	"sad")
+		echo "saddy"
+		;;
+	*)
+		echo "idk this"
+		;;
+esac
+	
